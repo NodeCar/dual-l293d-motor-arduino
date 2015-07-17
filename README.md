@@ -1,4 +1,5 @@
-# dual-l293d-motor-arduino
+dual-l293d-motor-arduino
+========================
 An Arduino-based dual L293d motor module communicating through i2c protocol.
 
 Hardware
@@ -6,7 +7,7 @@ Hardware
 - Arduino motor control shield V1
 - Arduino pro mini
 
-## Pin-Pin map
+### Pin-Pin map
 Shield|Arduino
 -------|------
 GND|GND
@@ -21,3 +22,14 @@ PWM1A|9
 PWM1B|10
 PWM2A|11
 PWM2B|3
+
+Arduino Library
+--------------
+
+download from [AFMotor](https://github.com/adafruit/Adafruit-Motor-Shield-library/zipball/master)
+
+1. Check that inside AFMotor is AFMotor.cpp and AFMotor.h files. If not, check the steps above
+2. Place the AFMotor folder into your arduinosketchfolder/libraries folder. For Windows, this will probably be something like MY Documents/Arduino/libraries for Mac it will be something likeDocuments/arduino/libraries. If this is the first time you are installing a library, you'll need to create the libraries folder. Make sure to call it libraries exactly, no caps, no other name.
+3. Check that inside the libraries folder there is the AFMotor folder, and inside AFMotor isAFMotor.cpp AFMotor.h and some other files
+4. Quit and restart the IDE. You should now have a submenu called File->Examples->AFMotor->MotorParty
+
