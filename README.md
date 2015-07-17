@@ -35,3 +35,11 @@ download from [AFMotor](https://github.com/adafruit/Adafruit-Motor-Shield-librar
 5. Check that inside the libraries folder there is the AFMotor folder, and inside AFMotor isAFMotor.cpp AFMotor.h and some other files
 6. Quit and restart the IDE. You should now have a submenu called File->Examples->AFMotor->MotorParty
 
+Usage
+-----
+
+Connect i2c wire to Arduino, configure your device as i2c master, then you are ready to go.
+
+i2c address: 0x10
+
+make a write call and write 4 byte [reg, direction, speed high byte, speed low byte]
