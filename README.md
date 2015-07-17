@@ -5,7 +5,7 @@ An Arduino-based dual L293d motor module communicating through i2c protocol.
 Hardware
 --------
 - Arduino motor control shield V1
-- Arduino pro mini
+- Arduino Pro Mini
 
 ### Pin-Pin map
 Shield|Arduino
